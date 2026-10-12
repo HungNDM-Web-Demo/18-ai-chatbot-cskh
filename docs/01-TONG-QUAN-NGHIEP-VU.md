@@ -14,7 +14,7 @@
 | Loại sản phẩm | Khung chat gắn vào website + web quản trị |
 | Ý tưởng gốc | 10.1 · Chatbot chăm sóc khách hàng trên website (`ZDOCS/02-KE-HOACH/DANH-SACH-Y-TUONG.md`) |
 | Người phụ trách | |
-| Trạng thái | Mới tạo từ khuôn mẫu |
+| Trạng thái | Có tài liệu nghiệp vụ (SRS, use case, kịch bản demo, kịch bản kiểm thử), chưa code |
 
 ## 2. Vấn đề của khách hàng
 
@@ -43,12 +43,14 @@
 | Area | Chức năng | Màn hình (route FE dự kiến) | Ưu tiên |
 | :--- | :--- | :--- | :---: |
 | `System` | Đăng nhập, tài khoản, vai trò, cài đặt | Có sẵn | — |
+| `Chat` | Tổng quan trong ngày | `/dashboard` | P1 |
 | `Chat` | Khung chat trên website | `/` (widget) | P1 |
 | `Chat` | Trả lời tự động bằng AI | — | P1 |
 | `Chat` | Kho kiến thức: câu hỏi thường gặp, sản phẩm | `/knowledge` | P1 |
 | `Chat` | Chuyển nhân viên, hộp thư chung | `/inbox` | P1 |
 | `Chat` | Lịch sử hội thoại | `/conversations` | P2 |
 | `Chat` | Thống kê câu hỏi | `/reports` | P2 |
+| `Chat` | Cấu hình chatbot: ngưỡng tin cậy, giờ làm việc CSKH, lời chào | `/settings/chatbot` | P1 |
 
 P1 = bắt buộc có để demo · P2 = nên có · P3 = làm thêm nếu còn thời gian.
 
